@@ -20,7 +20,7 @@ const List = ({task = [], setTasks}) => {
       };
   return (
     <>
-    <div>Your </div>
+    <div>Your Tasks: </div>
     <input 
         type="text" 
         placeholder='Enter your text'
