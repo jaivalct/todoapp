@@ -1,0 +1,47 @@
+/* style.css - MF1 */
+.mf1 {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mf1 h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.mf1 input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.mf1 button {
+    padding: 10px 15px;
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.mf1 button:hover {
+    background-color: #00aa55;
+}
+
+.mf1 ul {
+    padding-left: 0;
+}
+
+.mf1 li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.mf1 li input[type="checkbox"] {
+    margin-left: 10px;
+}

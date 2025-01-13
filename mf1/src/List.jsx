@@ -31,9 +31,7 @@ const List = ({task = [], setTasks}) => {
           <ul>
             {task.map((tsk, index) => (
               <li key={index}>
-                <div>
                   {tsk.text}
-                </div>
                 <input 
                     type="checkbox" 
                     checked = {tsk.completed}
